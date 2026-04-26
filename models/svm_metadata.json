@@ -1,0 +1,15 @@
+{
+  "model_type": "SVM + TF-IDF Pipeline",
+  "best_params": {
+    "tfidf__ngram_range": "(1, 2)",
+    "tfidf__min_df": "1",
+    "tfidf__max_features": "10000",
+    "svm__kernel": "rbf",
+    "svm__gamma": "0.01",
+    "svm__C": "1"
+  },
+  "test_accuracy": 0.8966,
+  "test_roc_auc": 0.8923,
+  "training_samples": 1895,
+  "test_samples": 474
+}
