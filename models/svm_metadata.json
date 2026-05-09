@@ -1,16 +1,15 @@
 {
   "model_type": "SVM + TF-IDF Pipeline",
   "best_params": {
-    "tfidf__ngram_range": "(1, 2)",
+    "tfidf__ngram_range": "(1, 1)",
     "tfidf__min_df": "1",
-    "tfidf__max_features": "20000",
-    "svm__kernel": "rbf",
-    "svm__gamma": "auto",
-    "svm__class_weight": "balanced",
-    "svm__C": "10"
+    "tfidf__max_features": "5000",
+    "svm__kernel": "linear",
+    "svm__gamma": "scale",
+    "svm__C": "0.1"
   },
-  "test_accuracy": 0.8966,
-  "test_roc_auc": 0.0789,
+  "test_accuracy": 0.9388,
+  "test_roc_auc": 0.9117,
   "training_samples": 1895,
   "test_samples": 474
 }
